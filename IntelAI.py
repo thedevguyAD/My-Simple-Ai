@@ -114,6 +114,10 @@ if __name__=='__main__':
         elif "open stackoverflow" in query:
             webbrowser.open_new_tab("https://stackoverflow.com")
             speak("Here is stack overflow opened !")
+            
+         elif "open stocks" in query:
+            webbrowser.open_new_tab("https://in.finance.yahoo.com/")
+            speak("Stonks!")    
 
         elif 'open code' in query:
             codePath = "C:\\Users\\sn\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" 
