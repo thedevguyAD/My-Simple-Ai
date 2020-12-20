@@ -1,8 +1,6 @@
 '''
 This my Ai model V.1.0.0.1
 This is taken using various sources like :-
-CodeWithHarry
-An article by M.Mrithula(sorry if i wrote the name wrong :-))
 '''
 import speech_recognition as sr #For user speech to text
 import pyttsx3 #For text to speech
